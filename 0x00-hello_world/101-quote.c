@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<unistd.h>
 /**
- * main - A program that prints without using puts and printf
- *
- * Return: 1 (success)
- */
+* main - A program that prints a line without using the ones used
+*
+* Return: Always 1 (Success)
+*/
 int main(void)
 {
 	write(2,
