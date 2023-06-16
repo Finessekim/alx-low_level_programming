@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-	int ch;
+	int n;
 	char ch;
 
-	for (ch = 48; ch < 58; ch++)
+	for (n = 48; n < 58; n++)
 	{
-		putchar(ch);
+		putchar(n);
 	}
 	for (ch = 'a'; ch <= 'f'; ch++)
 	{
